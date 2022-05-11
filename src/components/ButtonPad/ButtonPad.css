@@ -1,0 +1,11 @@
+.button-pad{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+
+.button-pad > *{
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
